@@ -1,0 +1,69 @@
+name: growin
+description: "GrowIn - Aplikasi Pencarian Kerja & Pengembangan Karier Berbasis AI"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management & routing
+  flutter_riverpod: ^2.5.1
+  go_router: ^14.2.0
+
+  # Backend
+  supabase_flutter: ^2.5.6
+  flutter_dotenv: ^5.1.0
+
+  # Networking (Gemini API via REST)
+  http: ^1.2.1
+
+  # Voice — Interview Simulator (STT/TTS)
+  speech_to_text: ^7.0.0
+  flutter_tts: ^4.0.2
+  permission_handler: ^11.3.1
+
+  # Maps — Peta Lowongan (OpenStreetMap, no API key)
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  geolocator: ^13.0.1
+
+  # UI / glassmorphism / effects
+  glassmorphism: ^3.0.0
+  google_fonts: ^6.2.1
+  fl_chart: ^0.69.0
+  percent_indicator: ^4.2.3
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  lottie: ^3.1.3
+
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.4.2
+  image_picker: ^1.1.2
+  file_picker: ^8.1.2
+  path_provider: ^2.1.4
+  share_plus: ^10.0.2
+  url_launcher: ^6.3.0
+  printing: ^5.13.1
+  pdf: ^3.11.1
+  logger: ^2.4.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.12
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
