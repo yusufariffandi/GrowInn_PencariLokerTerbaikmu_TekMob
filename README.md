@@ -165,10 +165,4 @@ Kontribusi terbuka bagi siapa pun yang ingin membantu pengembangan GrowIn. Untuk
 
 ---
 
-## 📄 Lisensi
-
-Proyek ini dibuat untuk keperluan akademik (tugas mata kuliah Teknologi Mobile, Universitas Ahmad Dahlan) di bawah **OpenCode Agency**. Belum ada lisensi open-source resmi yang diterapkan — silakan hubungi pemilik repository (**yusufariffandi**) untuk izin penggunaan, distribusi, atau modifikasi di luar konteks akademik ini.
-
----
-
 <p align="center">Dibuat dengan 🖤 untuk mendukung SDGs 8 — Pekerjaan Layak dan Pertumbuhan Ekonomi</p>
